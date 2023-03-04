@@ -13,10 +13,12 @@ body {
   display: flex;
   align-items: center;
 }
+
 .header__logo {
   padding-top: 65px;
   padding-left: 56px;
 }
+
 .logo {
   display: flex;
   position: relative;
@@ -29,11 +31,17 @@ body {
   display: flex;
   align-items: center;
   padding-top: 65px;
-  padding-left: 631px;
+  padding-left: 422px;
+  padding-right: 631px;
 }
+
 .pages {
 }
 
+.pages__item + .pages__item {
+    padding-left: 75px;
+
+}
 .pages__item {
   font-family: "Inter";
   font-weight: 450;
@@ -42,7 +50,7 @@ body {
   letter-spacing: 0.9375px;
   text-transform: uppercase;
   color: #fff;
-  padding-left: 75px;
+  
 }
 .header__actions {
   display: flex;
@@ -62,7 +70,7 @@ body {
 .notifications {
   display: flex;
   align-items: center;
-  padding: 66px 94px 60px 98px;
+  padding: 66px 94px 60px 118px;
 }
 .notification__img {
 }
@@ -71,25 +79,22 @@ body {
 }
 .main__page {
   position: relative;
-  top: 0;
-  left: 0;
+ 
 }
 .background__image {
   position: relative;
-  top: 0;
-  left: 0;
-  border: 1px solid #000000;
-  padding-left: 347px;
-  padding-top: 155px;
+ 
+  padding-top: 62px;
   padding-left: 347px;
   width: 1453.12px;
   height: 737.81px;
 }
 .slider {
   display: flex;
-  position: absolute;
-  padding-top: 200px;
-  padding-left: 65px;
+  position: relative;
+  margin-top: 296px;
+  margin-left: 56px;
+
 }
 
 h4 {
@@ -116,8 +121,9 @@ h4 {
 .t-shirt {
   position: absolute;
   top: 30px;
-  left: 30px;
-  border: 1px solid #000000;
+  margin-top: 201px;
+  margin-left: 1388px;
+ 
 }
 .footer {
 }
