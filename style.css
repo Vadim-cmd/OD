@@ -1,0 +1,123 @@
+for all elements * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #344444;
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  padding-top: 65px;
+  padding-left: 56px;
+}
+.logo {
+  display: flex;
+  position: relative;
+  padding-bottom: 5px;
+  padding-left: 53px;
+  margin-top: -20px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  padding-top: 65px;
+  padding-left: 631px;
+}
+.pages {
+}
+
+.pages__item {
+  font-family: "Inter";
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.9375px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 75px;
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  width: 417.19px;
+  height: 155.62px;
+  top: 0px;
+  margin-top: 0px;
+  margin-left: 1382px;
+}
+.bell {
+  padding: 66px 0px 60px 98px;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  padding: 66px 94px 60px 98px;
+}
+.notification__img {
+}
+.notification__number {
+  padding-left: 15px;
+}
+.main__page {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.background__image {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+  padding-left: 347px;
+  padding-top: 155px;
+  padding-left: 347px;
+  width: 1453.12px;
+  height: 737.81px;
+}
+.slider {
+  display: flex;
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 65px;
+}
+
+h4 {
+  color: #fff;
+}
+
+.clothes__title {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  padding-top: 93px;
+  padding-right: 71px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38.404px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.30971px;
+  text-transform: uppercase;
+  width: 342px;
+  height: 69px;
+}
+.t-shirt {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 1px solid #000000;
+}
+.footer {
+}
