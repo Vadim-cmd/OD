@@ -15,17 +15,22 @@ body {
 }
 
 .header__logo {
+  display: flex;
   padding-top: 65px;
   padding-left: 56px;
 }
 
-.logo {
+.logo__slash {
   display: flex;
   position: relative;
-  padding-bottom: 5px;
-  padding-left: 53px;
-  margin-top: -20px;
 }
+.logo__timely {
+  display: flex;
+  position: relative;
+  padding-left: 53px;
+}
+
+
 
 .header__list {
   display: flex;
