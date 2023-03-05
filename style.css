@@ -39,9 +39,9 @@ body {
 }
 
 .pages__item + .pages__item {
-    padding-left: 75px;
-
+  padding-left: 75px;
 }
+
 .pages__item {
   font-family: "Inter";
   font-weight: 450;
@@ -50,8 +50,8 @@ body {
   letter-spacing: 0.9375px;
   text-transform: uppercase;
   color: #fff;
-  
 }
+
 .header__actions {
   display: flex;
   align-items: center;
@@ -63,6 +63,7 @@ body {
   margin-top: 0px;
   margin-left: 1382px;
 }
+
 .bell {
   padding: 66px 0px 60px 98px;
 }
@@ -72,29 +73,32 @@ body {
   align-items: center;
   padding: 66px 94px 60px 118px;
 }
+
 .notification__img {
 }
+
 .notification__number {
   padding-left: 15px;
 }
+
 .main__page {
   position: relative;
- 
 }
+
 .background__image {
   position: relative;
- 
+
   padding-top: 62px;
   padding-left: 347px;
   width: 1453.12px;
   height: 737.81px;
 }
+
 .slider {
   display: flex;
-  position: relative;
-  margin-top: 296px;
-  margin-left: 56px;
-
+  position: absolute;
+  margin-top: -590px;
+  margin-left: 57px;
 }
 
 h4 {
@@ -103,27 +107,173 @@ h4 {
 
 .clothes__title {
   display: flex;
-  position: absolute;
-  right: 0px;
+  position: relative;
+  margin-top: -750px;
+  margin-right: -645px;
+  margin-left: 1405px;
   padding-top: 93px;
-  padding-right: 71px;
-  font-family: "Inter";
-  font-style: normal;
+  padding-right: 0px;
+  font-family: "Roboto";
+  font-weight: 100;
   font-weight: 400;
   font-size: 38.404px;
-  line-height: 35px;
+  line-height: 45px;
   text-align: center;
   letter-spacing: 0.30971px;
   text-transform: uppercase;
   width: 342px;
-  height: 69px;
+  height: 99px;
+  z-index: 5;
 }
+
 .t-shirt {
   position: absolute;
   top: 30px;
   margin-top: 201px;
-  margin-left: 1388px;
- 
+  margin-left: 1368px;
+  z-index: 5;
 }
-.footer {
+
+.main__title {
+  position: absolute;
+  width: 903.44px;
+  height: 290.62px;
+  left: 56px;
+  top: 390px;
+  font-family: "Inter";
+  font-weight: 100;
+  font-size: 116.25px;
+  line-height: 146px;
+  letter-spacing: 0.9375px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button__white {
+  display: flex;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-bottom: 25px;
+  margin-left: 56px;
+  margin-top: 540px;
+  width: 121.88px;
+  height: 52.5px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.9375px;
+  text-transform: uppercase;
+  color: #2a3334;
+}
+
+.button__dark {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 33.75px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.875px;
+  line-height: 15px;
+  letter-spacing: 0.9375px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(129, 129, 139, 0.2);
+  padding: 18px 38px;
+  box-sizing: border-box;
+  width: 108.75px;
+  height: 52.5px;
+  border: 0.9375px solid #ffffff;
+}
+
+.image__girl {
+  display: flex;
+  position: absolute;
+  width: 251.25px;
+  height: 241.88px;
+  left: 774.38px;
+  top: 818px;
+}
+
+.image__block {
+  position: absolute;
+  width: 318.75px;
+  height: 241.88px;
+  left: 1025.62px;
+  top: 818px;
+}
+
+.block {
+  display: flex;
+  position: absolute;
+  width: 455.62px;
+  height: 460.31px;
+  left: 1344.38px;
+  top: 600px;
+  z-index: 4;
+  background-color: #3f666f;
+}
+
+.container {
+  padding-top: 180px;
+  padding-left: 109px;
+}
+
+.container__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.3851px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  width: 248.44px;
+  height: 49px;
+}
+
+.container__buttons {
+  display: flex;
+  column-gap: 32px;
+  row-gap: 15px;
+  flex-direction: row;
+  /* justify-content: center;
+  align-items: center; */
+  /* padding: 0px;
+  gap: 20.39px; */
+  width: 282.89px;
+  height: 52.5px;
+  padding-top: 31px;
+}
+.button__white__2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 153.75px;
+  height: 52.5px;
+  background: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16.875px;
+  line-height: 15px;
+  letter-spacing: 0.9375px;
+  text-transform: uppercase;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.9375px;
+  text-transform: uppercase;
+  color: #2a3334;
 }
