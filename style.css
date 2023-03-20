@@ -4,7 +4,7 @@ for all elements * {
 
 body {
   background-color: #344444;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 1440px;
 }
@@ -29,8 +29,6 @@ body {
   position: relative;
   padding-left: 53px;
 }
-
-
 
 .header__list {
   display: flex;
@@ -92,7 +90,6 @@ body {
 
 .background__image {
   position: relative;
-
   padding-top: 62px;
   padding-left: 347px;
   width: 1453.12px;
@@ -152,6 +149,7 @@ h4 {
   letter-spacing: 0.9375px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-left: 415px;
 }
 
 .button__white {
@@ -251,14 +249,11 @@ h4 {
   column-gap: 32px;
   row-gap: 15px;
   flex-direction: row;
-  /* justify-content: center;
-  align-items: center; */
-  /* padding: 0px;
-  gap: 20.39px; */
   width: 282.89px;
   height: 52.5px;
   padding-top: 31px;
 }
+
 .button__white__2 {
   display: flex;
   position: relative;
@@ -267,17 +262,11 @@ h4 {
   width: 153.75px;
   height: 52.5px;
   background: #ffffff;
-  font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 16.875px;
-  line-height: 15px;
-  letter-spacing: 0.9375px;
-  text-transform: uppercase;
-  font-family: "Inter";
-  font-weight: 600;
   font-size: 15px;
   line-height: 15px;
+  font-family: "Inter";
+  font-weight: 600;
   letter-spacing: 0.9375px;
   text-transform: uppercase;
   color: #2a3334;
